@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+        <title>Dentacoin</title>
+        <link rel="stylesheet" href="/css/bootstrap.css" />
+        <link rel="stylesheet" href="/css/style.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,500,400italic,700&subset=latin,cyrillic" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.min.js"></script>
+
+</head>
+<body class="ng-cloak new-font" ng-controller="mainController as mainCtrl">
+
+<div class="head-top f f-cent">
+	<div class="head-top--cont f f-cent f-row f-space-bet">
+		<input placeholder="Търсене">
+		<div class="head-top--buttons f">
+			<div>ВХОД</div>
+			<div>РЕГИСТРАЦИЯ</div>
+		</div>
+	</div>
+</div>
+
+<div class="head-menu f f-cent">
+	<div class="head-menu--link f f-cent">НАЧАЛО</div>
+	<div class="head-menu--link f f-cent">ТЕСТОВЕ</div>
+	<div class="head-menu--link f f-cent">ЗА ПРОЕКТА</div>
+	<img src="/images/logo-black.jpg">
+	<div class="head-menu--link f f-cent">ЗА НАС</div>
+	<div class="head-menu--link f f-cent">ЛИЦЕНЗИ</div>
+	<div class="head-menu--link f f-cent">КОНТАКТИ</div>
+</div>
+
+<div class="head-mainimg f f-cent f-col">
+	<img src="/images/logo-bigger-black.png">	
+	<div>Специализирани</div>
+	<div>Тестове за зъболекари</div>
+</div>
+
+{{{body}}}
+
+<div class="footer-cont f f-cent">
+	<div class="footer-addr f f-col">
+		<div class="f f-cent"><img class="footer-logo" src="/images/logo-bigger-black.png"></div>
+		<div>@Copyright 2010-2017 Dental Bulgaria Ltd. All rights reserved.</div>
+		<div>Our address in Varna, Bulgaria.</div>
+	</div>
+	<div>
+		<div class="bold marg-bot-10">НАВИГАЦИЯ</div>
+		<div>Начало</div>
+		<div>За проекта</div>
+		<div>За нас</div>
+		<div>Лицензиране</div>
+		<div>За компанията</div>
+	</div>
+	<div>
+		<div class="bold marg-bot-10">ПОЛЕЗНИ ЛИНКОВЕ</div>
+		<div>Условия за ползване</div>
+		<div>Какво е Дентакойн</div>
+		<div>За нас</div>
+	</div>
+	<div>
+		<div class="bold marg-bot-10">СОЦИАЛНИ МРЕЖИ</div>
+		<div>
+			<i class="fa fa-facebook-official footer-social" aria-hidden="true"></i>
+			<i class="fa fa-twitter-square footer-social" aria-hidden="true"></i>
+		</div>
+	</div>
+</div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://code.angularjs.org/1.5.6/angular-cookies.min.js"></script>
+<script src="/controllers/maincontroller.js"></script>
+
+</html>
